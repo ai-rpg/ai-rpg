@@ -1,0 +1,12 @@
+[submodule "openai-DM-AuthService"]
+	path = openai-DM-AuthService
+	url = https://github.com/codeiain/openai-DM-AuthService.git
+[submodule "openai-dm-infra"]
+	path = openai-dm-infra
+	url = https://github.com/codeiain/openai-dm-infra.git
+[submodule "openai-DM-Mobile"]
+	path = openai-DM-Mobile
+	url = https://github.com/codeiain/openai-DM-Mobile.git
+[submodule "openai-DM-Socket-Server"]
+	path = openai-DM-Socket-Server
+	url = https://github.com/codeiain/openai-DM-Socket-Server.git
