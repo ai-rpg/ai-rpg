@@ -13,3 +13,9 @@
 [submodule "mobile-client"]
 	path = mobile-client
 	url = https://github.com/ai-rpg/Mobile-Client.git
+[submodule "template"]
+	path = template
+	url = https://github.com/ai-rpg/python_hex_microservice.git
+[submodule "adventure-service"]
+	path = adventure-service
+	url = https://github.com/ai-rpg/Adventure-Service.git
