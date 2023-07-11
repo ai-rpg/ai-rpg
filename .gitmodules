@@ -1,1 +1,24 @@
-
+[submodule "infra"]
+	path = infra
+	url = https://github.com/ai-rpg/Infra-structure.git
+[submodule "auth-service"]
+	path = auth-service
+	url = https://github.com/ai-rpg/Auth-Service.git
+[submodule "character-service"]
+	path = character-service
+	url = https://github.com/ai-rpg/Character-Service.git
+[submodule "socket-service"]
+	path = socket-service
+	url = https://github.com/ai-rpg/Socket-Service.git
+[submodule "mobile-client"]
+	path = mobile-client
+	url = https://github.com/ai-rpg/Mobile-Client.git
+[submodule "template"]
+	path = template
+	url = https://github.com/ai-rpg/python_hex_microservice.git
+[submodule "adventure-service"]
+	path = adventure-service
+	url = https://github.com/ai-rpg/Adventure-Service.git
+[submodule "ai-service"]
+	path = ai-service
+	url = https://github.com/codeiain/AI-Server.git
