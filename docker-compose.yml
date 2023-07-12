@@ -1,0 +1,17 @@
+version: '3.3'
+
+services:
+  adventureservice:
+    tty: true
+    build: 
+      context: adventure-service
+      dockerfile: Dockerfile
+    ports:
+      - 9899:9899
+    restart: always
+    networks:
+      - infra_tools
+
+networks:
+  infra_tools:
+    external: true
