@@ -12,6 +12,17 @@ services:
     networks:
       - infra_tools
 
+  aiservice:
+    tty: true
+    build:
+      context: ai-service
+      dockerfile: Dockerfile
+    ports:
+      - 9799:9799
+    restart: always
+    networks:
+      - infra_tools
+
 networks:
   infra_tools:
     external: true

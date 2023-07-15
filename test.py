@@ -3,7 +3,7 @@ import logging_loki
 
 
 handler = logging_loki.LokiHandler(
-    url="https://3100-airpg-airpg-xkz8qjm8neu.ws-eu101.gitpod.io/loki/api/v1/push", 
+    url="https://3100-airpg-airpg-xkz8qjm8neu.ws-eu101.gitpod.io/loki/api/v1/push",
     tags={"application": "my-app"},
     version="1",
 )
@@ -11,16 +11,16 @@ handler = logging_loki.LokiHandler(
 logger = logging.getLogger("my-logger")
 logger.addHandler(handler)
 logger.error(
-    "Something happened", 
+    "Something happened",
     extra={"tags": {"service": "my-service"}},
 )
 
 logger.info(
-    "Something happened", 
+    "Something happened",
     extra={"tags": {"service": "my-service"}},
 )
 
 logger.warning(
-    "Something happened", 
+    "Something happened",
     extra={"tags": {"service": "my-service"}},
 )
