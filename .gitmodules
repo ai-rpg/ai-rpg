@@ -21,4 +21,4 @@
 	url = https://github.com/ai-rpg/Adventure-Service.git
 [submodule "ai-service"]
 	path = ai-service
-	url = ttps://github.com/codeiain/AI-Server.git
+	url = https://github.com/ai-rpg/AI-Server.git
