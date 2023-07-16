@@ -23,6 +23,17 @@ services:
     networks:
       - infra_tools
 
+  websocketservice:
+    tty: true
+    build:
+      context: socket-service
+      dockerfile: Dockerfile
+    ports:
+      - 9698:9698
+    restart: always
+    networks:
+      - infra_tools
+
 networks:
   infra_tools:
     external: true
