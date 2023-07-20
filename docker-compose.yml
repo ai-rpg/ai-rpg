@@ -1,6 +1,16 @@
 version: '3.3'
 
 services:
+  mobile:
+    tty: true
+    build: 
+      context: mobile-client
+      dockerfile: Dockerfile
+    ports:
+      - 9080:80
+    networks:
+      - infra_tools
+      
   adventureservice:
     tty: true
     build: 
